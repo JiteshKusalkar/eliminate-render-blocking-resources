@@ -1,3 +1,11 @@
+# About
+
+This POC demonstrate the issue of render-blocking resources affecting the web-app performance and methods to fix it.
+
+Even after applying lazy loading and code-splitting techniques the problem persists. The [main](https://github.com/JiteshKusalkar/eliminate-render-blocking-resources/blob/main) branch demonstrate the problem.
+
+Check out the solution to eliminate render-blocking resources [here](https://github.com/JiteshKusalkar/eliminate-render-blocking-resources/tree/render-blocking-resources-solution).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
