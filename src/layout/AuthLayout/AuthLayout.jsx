@@ -6,12 +6,12 @@ import './style.scss';
 
 const Login = lazy(() =>
   import(
-    /* webpackChunkName: "login" */ '../../containers/Login'
+    /* webpackChunkName: "login" */ /* webpackPreload: true */ '../../containers/Login'
   )
 );
 const Signup = lazy(() =>
   import(
-    /* webpackChunkName: "signup" */ '../../containers/Signup'
+    /* webpackChunkName: "signup" */ /* webpackPrefetch: true */ '../../containers/Signup'
   )
 );
 

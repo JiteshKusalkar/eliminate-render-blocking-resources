@@ -1,4 +1,6 @@
 .auth-form {
+  min-width: 320px;
+  max-width: 540px;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -6,9 +8,4 @@
   padding: 30px;
   margin: 0 auto;
   background-color: #ffffff;
-
-  @media screen and (min-width: 1024px) {
-    min-width: 320px;
-    max-width: 540px;
-  }
 }
