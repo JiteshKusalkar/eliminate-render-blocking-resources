@@ -1,0 +1,14 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #ffffff;
+
+  @media screen and (min-width: 1024px) {
+    min-width: 320px;
+    max-width: 540px;
+  }
+}
